@@ -22,8 +22,9 @@ Both of these two tools are designed to be "generic kubernetes templates" for an
 Jinja is a python library. 
 
 
-Example:
-The following values.yaml:
+## Example
+
+The following is an example values.yaml
 
 ```yaml
 service_name: dataset-service
@@ -38,8 +39,8 @@ components:
             heartbeat_url: /healthz
             readiness_url: /readyz
             port: 80
-	    env:
-		TIER: web
+            env:
+	      TIER: web
         dev:
             min: 1
             max: 2
@@ -50,9 +51,9 @@ components:
       template: worker
       command: ['tini', 'python', '/app/worker.py']
       values:
-	default:
+        default:
             env:
-	        TIER: worker
+                TIER: worker
         dev:
             min: 1
             max: 2
