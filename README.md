@@ -40,7 +40,7 @@ components:
             readiness_url: /readyz
             port: 80
             env:
-	      TIER: web
+                TIER: web
         dev:
             min: 1
             max: 2
