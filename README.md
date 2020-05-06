@@ -16,7 +16,6 @@ KYacht uses a single file to create many other components, allowing all componen
 * Why not just use Helm/Kustomize/Other?
 This library was built with frustration of using helm/kustomize. Helm has a pretty high barrier to entry, and personal preference felt that it was overly verbose. 
 Kustomize is decent, but requires a *lot* of boilerplate and files to do simple things. 
-
 Both of these two tools are designed to be "generic kubernetes templates" for anything in kubernetes. KYacht however, is designed specifically as a templating framework for services to be deployed. 
 
 * Why is this library not written in Go?
