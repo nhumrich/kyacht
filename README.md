@@ -1,4 +1,4 @@
-# kyacht
+# KYacht
 Kustom Yacht
 
 KYacht is a kubernetes (k8s) templating library. It is very similar to kustomize/helm. 
